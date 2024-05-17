@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="img/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenido a nuestra tienda</span>
+                <h1>OFERTAS ESPECIALES</h1>
+                <p>
+                    Descubre nuestras increíbles ofertas especiales, diseñadas para brindarte
+                    los mejores productos a precios irresistibles. ¡No te pierdas la oportunidad
+                    de encontrar lo que buscas a un precio único y exclusivo!
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">Información</a>
+                    <a href="#" class="btn-1">Leer más...</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="img/bag.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="oferts container">
+
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Verduras para la ensalada</h3>
+                <a href="#">Leer más...</a>
+            </div>
+            <div class="ofert-img">
+                <img src="img/s1.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Ensalada de verduras</h3>
+                <a href="#">Leer más...</a>
+            </div>
+            <div class="ofert-img">
+                <img src="img/s2.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Leche con galletitas</h3>
+                <a href="#">Leer más...</a>
+            </div>
+            <div class="ofert-img">
+                <img src="img/s3.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <main class="products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="img/pr1.png" alt="" />
+                <div class="product-txt">
+                    <h3>Ades</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">20 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="1">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr2.png" alt="" />
+                <div class="product-txt">
+                    <h3>Lios Fresa</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">10 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="2">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr3.png" alt="" />
+                <div class="product-txt">
+                    <h3>Larin</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">8 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="3">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr4.png" alt="" />
+                <div class="product-txt">
+                    <h3>Ades Soya</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">25 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="4">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr5.png" alt="" />
+                <div class="product-txt">
+                    <h3>Carlos Cero</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">7 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="5">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr6.png" alt="" />
+                <div class="product-txt">
+                    <h3>Veggi Chips</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">12 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="6">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr7.png" alt="" />
+                <div class="product-txt">
+                    <h3>Gamesa</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">15 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="7">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr8.png" alt="" />
+                <div class="product-txt">
+                    <h3>Santa Clara</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">30 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="8">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr9.png" alt="" />
+                <div class="product-txt">
+                    <h3>Arandano</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">22 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="9">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr10.png" alt="" />
+                <div class="product-txt">
+                    <h3>Crunch</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">18 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="10">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr11.png" alt="" />
+                <div class="product-txt">
+                    <h3>La Costeña</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">26 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="11">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr12.png" alt="" />
+                <div class="product-txt">
+                    <h3>Azamtas</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">9 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="12">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr13.png" alt="" />
+                <div class="product-txt">
+                    <h3>Nesquik</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">18 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="13">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr14.png" alt="" />
+                <div class="product-txt">
+                    <h3>OREO</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">15 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="14">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr15.png" alt="" />
+                <div class="product-txt">
+                    <h3>Cheetos Bones</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">14 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="15">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr16.png" alt="" />
+                <div class="product-txt">
+                    <h3>Lasys</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">10 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="16">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr17.png" alt="" />
+                <div class="product-txt">
+                    <h3>Cubos Caramel</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">40 Bs</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="17">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr18.png" alt="" />
+                <div class="product-txt">
+                    <h3>Choco Mik</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">13 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="18">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr19.png" alt="" />
+                <div class="product-txt">
+                    <h3>Nutella</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">15 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="19">Agregar al carritos</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pr20.png" alt="" />
+                <div class="product-txt">
+                    <h3>Milo</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">20 BS</p>
+                    <a href="#" class="agregar-carrito btn-3 " data-id="20">Agregar al carritos</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar más..</div>
+    </main>
+
+    <section class="testimonial container">
+        <span>Testimoniales</span>
+        <h2>Que opinan nuestros clientes</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quam nihil
+                    voluptates omnis maxime soluta praesentium. Odio nemo cum beatae totam
+                    nam quasi, consequuntur pariatur sint molestias voluptas culpa neque?
+                </p>
+                <img src="img/starts.png" alt="" />
+                <h4>Lorem impsum</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quam nihil
+                    voluptates omnis maxime soluta praesentium. Odio nemo cum beatae totam
+                    nam quasi, consequuntur pariatur sint molestias voluptas culpa neque?
+                </p>
+                <img src="img/starts.png" alt="" />
+                <h4>Lorem impsum</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Loren</h3>
+                <ul>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Loren</h3>
+                <ul>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Loren</h3>
+                <ul>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Loren</h3>
+                <ul>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                    <li><a href="#">Loren</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
